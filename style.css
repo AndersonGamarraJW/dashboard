@@ -15,7 +15,11 @@ body{
 aside{
     grid-area: aside;
     background-color:#38bdf8;
-    color: #FFFF;  
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
 }
 aside .logo{
     display: flex;
