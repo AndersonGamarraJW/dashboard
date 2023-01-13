@@ -131,6 +131,7 @@ main{
     grid-area: main;
     display: grid;
     grid-template-columns: 4fr 1fr;
+    background-color: #f3f4f6;
 }
 #main-content-container h2{
     font-weight: 500;
