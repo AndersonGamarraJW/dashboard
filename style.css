@@ -15,19 +15,21 @@ body{
 aside{
     grid-area: aside;
     background-color:#38bdf8;
-    
+    color: #FFFF;  
 }
 aside .logo{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     column-gap: 0.5rem;
+    color:#FFFF;
 }
 .logo > #dashboard-icon{
     font-size: 50px;
 }
 header{
     grid-area: header;
+    
 }
 main{
     grid-area: main;
